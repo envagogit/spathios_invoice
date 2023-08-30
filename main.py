@@ -331,7 +331,7 @@ def main():
     #st.markdown(
     #    "<div style='text-align:right;'>|</div>", unsafe_allow_html=True
     #)
-    leftm, margin, rightm ,totr= st.columns([1, 32, 11,1])
+    leftm, margin, rightm ,totr= st.columns([1, 32, 1,1])
     with margin:
         foot = f"""
         <div style="
@@ -405,7 +405,7 @@ def main():
                 label_visibility="collapsed",
             )
         st.divider()
-    leftm, rec, pag, rightm,totr = st.columns([1, 12, 20, 11,1])
+    leftm, rec, pag, rightm,totr = st.columns([1, 12, 20, 1,1])
     with rec:
         st.write(
             """To: Spathioslink 14 S.L.
@@ -444,7 +444,7 @@ Carrer del Doctor Francesc Darder, 8-10,3º 2ª A, 08034, Barcelona
                 "Address", label_visibility="collapsed", placeholder="Address"
             )
             st.text_input("Date", label_visibility="collapsed", placeholder="Date")
-    leftm, margin, rightm = st.columns([1, 32, 12])
+    leftm, margin, rightm = st.columns([1, 32, 2])
     with margin:
         with st.expander("Add line"):
             st.write(

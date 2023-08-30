@@ -1,0 +1,7 @@
+[theme]
+primaryColor="#ff5a00"
+backgroundColor="#ffffff"
+secondaryBackgroundColor="#ff5a00"
+textColor="#000000"
+font="monospace"
+toolbarMode = "viewer"
